@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&display=swap');
+
+body {
+    font-family: 'Fauna One', serif;
+}
+
+h1, h2 {
+    font-family: 'Cinzel', serif;
+}
