@@ -2,7 +2,16 @@
 
 body {
     font-family: 'Fauna One', serif;
+} 
+
+body.home {
+    background-image: url(../images/wallpapersden.com_geralt-witcher_1920x1080.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
 }
+
 
 h1, h2 {
     font-family: 'Cinzel', serif;
@@ -45,6 +54,9 @@ h1, h2 {
 }
 
 /* Index */
+
+
+
 
 #home-container {
     display: flex;
