@@ -10,7 +10,7 @@ h1, h2 {
 
 /* Game */
 
-.select-container {
+.answer-container {
     display: flex;
     flex-direction: row;
     width: 25%;
