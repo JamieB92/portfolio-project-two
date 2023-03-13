@@ -23,6 +23,7 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #faf5f5;
 }
 
 /* Buttons */
@@ -38,8 +39,8 @@ h1, h2 {
     text-decoration: none;
     width: 10rem;
     height: 3rem;
-    background-color: #d3d6db;
-    color: #0e2431;
+    background-color: rgba(211, 214, 219, 20%);
+    color: #faf5f5;
     border-radius: 17px;
     transition-duration: 0.8s;
     border: 2px solid #3a4750;
@@ -50,7 +51,8 @@ h1, h2 {
 }
 
 .btn:hover {
-    background-color: #be3144;
+    background-color: #d3d6db;
+    color: #0e2431;
 }
 
 /* Index */
@@ -64,15 +66,19 @@ h1, h2 {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    
 }
 
 .home-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
-    background-color: aquamarine;
+    background-color: rgba(211, 214, 219, 20%);
+    border-radius: 17px;
+    color: #faf5f5;
+    
 }
 
 
