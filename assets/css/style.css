@@ -7,3 +7,13 @@ body {
 h1, h2 {
     font-family: 'Cinzel', serif;
 }
+
+/* Game */
+
+.select-container {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
