@@ -2,10 +2,19 @@
 
 body {
     font-family: 'Fauna One', serif;
+    color: #faf5f5;
 } 
 
 body.home {
     background-image: url(../images/wallpapersden.com_geralt-witcher_1920x1080.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+body.game {
+    background-image: url(../images/wallpapersden.com_the-witcher-3_1920x1080.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,7 +32,7 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #faf5f5;
+    
 }
 
 /* Buttons */
@@ -58,8 +67,6 @@ h1, h2 {
 /* Index */
 
 
-
-
 #home-container {
     display: flex;
     flex-direction: column;
@@ -77,7 +84,6 @@ h1, h2 {
     margin-bottom: 20px;
     background-color: rgba(211, 214, 219, 20%);
     border-radius: 17px;
-    color: #faf5f5;
     
 }
 
@@ -88,6 +94,7 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2.5% 0 2.5% 0;
 }
 
 #answer-container {
@@ -101,10 +108,14 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     width: 30%;
-    background-color: aqua;
     margin: 10px;
     padding: 30px;
+    background-color: rgba(211, 214, 219, 40%);
+    border-radius: 17px;
 }
+
+
+
 
 /* Game over and Leaderboard*/
 
@@ -113,7 +124,6 @@ h1, h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
     margin-bottom: 10px;
 }
 
