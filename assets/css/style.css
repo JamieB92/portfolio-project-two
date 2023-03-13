@@ -8,6 +8,42 @@ h1, h2 {
     font-family: 'Cinzel', serif;
 }
 
+/* Header */
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Index */
+
+#home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+}
+
+#home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
 /* Game */
 
 #question {
