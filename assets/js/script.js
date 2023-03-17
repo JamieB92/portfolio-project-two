@@ -1,3 +1,11 @@
+let question = document.getElementById('question')
+let selector = Array.from(document.getElementsByClassName('select-text'))
+
+let currentQuestion = {}
+let acceptAnswers = true
+let availibleQuestions = []
+
+
 let questions = [
     {
         question: 'What animal is on Geralts medallion?',
@@ -83,3 +91,22 @@ let questions = [
     }
 ]
 
+let maxQuestions = 10
+
+beginGame = () => {
+    availibleQuestions = [...questions]
+    getNewQuestion()
+}
+
+
+getNewQuestion = () => {
+    
+    let questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
+    currentQuestion = availibleQuestions[questionsIndex]
+    question.innerText = currentQuestion.question
+
+    selector.forEach(select => {
+        let number = select.dataset['number']
+        select.innerText
+    })
+}
