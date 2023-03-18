@@ -1,6 +1,8 @@
 let question = document.getElementById('question')
 let selector = Array.from(document.getElementsByClassName('select-text'))
 
+
+
 let currentQuestion = {}
 let acceptAnswers = true
 let availibleQuestions = []
@@ -104,9 +106,18 @@ getNewQuestion = () => {
     let questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
     currentQuestion = availibleQuestions[questionsIndex]
     question.innerText = currentQuestion.question
+    
 
     selector.forEach(select => {
         let number = select.dataset['number']
-        select.innerText
+        select.innerText = currentQuestion['select' + number]
     })
+
+    availibleQuestions.splice(questionsIndex, 1)
+
+    
 }
+
+
+
+beginGame()
