@@ -1,6 +1,7 @@
 let question = document.getElementById('question')
 let selector = Array.from(document.getElementsByClassName('select-text'))
-
+let nextButton = document.querySelector("#next")
+let previousButton = document.querySelector("previous")
 
 
 let currentQuestion = {}
@@ -117,6 +118,8 @@ getNewQuestion = () => {
 
     
 }
+
+nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++))
 
 
 
