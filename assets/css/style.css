@@ -113,8 +113,8 @@ h1, h2 {
     padding: 30px;
     background-color: rgba(211, 214, 219, 40%);
     border-radius: 17px;
+    cursor: pointer;
 }
-
 
 
 

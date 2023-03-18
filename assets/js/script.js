@@ -1,13 +1,12 @@
 let question = document.getElementById('question')
 let selector = Array.from(document.getElementsByClassName('select-text'))
 let nextButton = document.querySelector("#next")
-let previousButton = document.querySelector("previous")
+
 
 
 let currentQuestion = {}
-let acceptAnswers = true
 let availibleQuestions = []
-
+let acceptAnswer = true
 
 let questions = [
     {
@@ -102,7 +101,14 @@ beginGame = () => {
 }
 
 
+
+
+
 getNewQuestion = () => {
+
+    if(availibleQuestions.length === 0) {
+        return window.location.assign('/completion.html')
+    }
     
     let questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
     currentQuestion = availibleQuestions[questionsIndex]
@@ -115,9 +121,29 @@ getNewQuestion = () => {
     })
 
     availibleQuestions.splice(questionsIndex, 1)
-
     
+    acceptAnswer = true
 }
+
+
+
+    selector.forEach(select => {
+    select.addEventListener('click', e => {
+            let userAnswer = e.target
+            let answer = userAnswer.dataset['number']  
+            let isCorrect = answer == currentQuestion.answer 
+
+        if (isCorrect) {  
+        alert("");
+        
+         } else { 
+        alert("");
+        
+    }
+    
+})
+})
+ 
 
 nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++))
 
