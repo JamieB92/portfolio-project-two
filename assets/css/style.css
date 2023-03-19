@@ -22,6 +22,7 @@ body.game {
 }
 
 
+
 h1, h2 {
     font-family: 'Cinzel', serif;
 }
@@ -33,7 +34,7 @@ h1, h2 {
     align-items: center;
     justify-content: center;
     margin-top: 250px;
-    margin-bottom: 400px;
+    /* margin-bottom: 400px; */
 }
 
 /* Buttons */

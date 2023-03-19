@@ -101,13 +101,10 @@ beginGame = () => {
 }
 
 
-
-
-
 getNewQuestion = () => {
 
     if(availibleQuestions.length === 0) {
-        return window.location.assign('/completion.html')
+        return window.location.assign('/completed.html')
     }
     
     let questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
