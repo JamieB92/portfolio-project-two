@@ -21,7 +21,13 @@ body.game {
     background-size: cover; 
 }
 
-
+body.completed {
+    background-image: url(../images/witcher.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 h1, h2 {
     font-family: 'Cinzel', serif;
