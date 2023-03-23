@@ -131,10 +131,10 @@ getNewQuestion = () => {
             let isCorrect = answer == currentQuestion.answer 
 
         if (isCorrect) {  
-        alert("");
+        alert("Well done you have answered correctly");
         
          } else { 
-        alert("");
+        alert("You answered incorrectly");
         
     }
     
