@@ -1,7 +1,7 @@
 let question = document.getElementById('question')
 let selector = Array.from(document.getElementsByClassName('select-text'))
 let nextButton = document.querySelector("#next")
-
+let score = document.getElementById("score")
 
 
 let currentQuestion = {}
@@ -93,7 +93,7 @@ let questions = [
     }
 ]
 
-let maxQuestions = 10
+
 
 beginGame = () => {
     availibleQuestions = [...questions]
@@ -131,18 +131,31 @@ getNewQuestion = () => {
             let isCorrect = answer == currentQuestion.answer 
 
         if (isCorrect) {  
-        alert("Well done you have answered correctly");
+        alert("Well done you have answered correctly")
+        incrementScore()
+        
+
         
          } else { 
-        alert("You answered incorrectly");
-        
+        alert("You answered incorrectly")
     }
     
 })
+
+function incrementScore() {
+    let addScore = parseInt(document.getElementById("score").innerText)
+    document.getElementById("score").innerText = ++addScore
+
+    const currentScore = parseInt(localStorage.getItem('score') ?? '0')
+    localStorage.setItem('Score', (currentScore + 1).toString())
+}
+
+
 })
  
 
 nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++))
+
 
 
 
