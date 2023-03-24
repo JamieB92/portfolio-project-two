@@ -1,7 +1,6 @@
 let question = document.getElementById('question')
 let selector = Array.from(document.getElementsByClassName('select-text'))
 let nextButton = document.querySelector("#next")
-let restartButton = document.getElementById("restart")
 let score = document.getElementById("score")
 
 
@@ -145,14 +144,10 @@ function incrementScore() {
     document.getElementById("score").innerText = ++addScore
 
     
-    const currentScore = parseInt(localStorage.getItem('Score') ?? '0')
+    let currentScore = parseInt(localStorage.getItem('Score') ?? '0')
     localStorage.setItem('Score', (currentScore + 1).toString())
 }
-
-
 })
-
-
 
 
 nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++))
