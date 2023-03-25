@@ -1,13 +1,12 @@
-let question = document.getElementById('question')
-let selector = Array.from(document.getElementsByClassName('select-text'))
-let nextButton = document.querySelector("#next")
-let score = document.getElementById("score")
+let question = document.getElementById('question');
+let selector = Array.from(document.getElementsByClassName('selectText'));
+let nextButton = document.querySelector("#next");
+let score = document.getElementById("score");
 
 
-let currentQuestion = {}
-let availibleQuestions = []
-let acceptAnswer = true
-
+let currentQuestion = {};
+let availibleQuestions = [];
+let acceptAnswer = true;
 let questions = [
     {
         question: 'What animal is on Geralts medallion?',
@@ -91,70 +90,64 @@ let questions = [
         select4: 'Toss a coin to your Witcher',
         answer: '4',
     }
-]
+];
 
 
 
-beginGame = () => {
-    availibleQuestions = [...questions]
-    getNewQuestion()
+function beginGame() {
+    availibleQuestions = [...questions];
+    getNewQuestion();
 }
 
 
-getNewQuestion = () => {
+function getNewQuestion() {
 
     if(availibleQuestions.length === 0) {
-            window.location.href = "completed.html"
+            window.location.href = "completed.html";
     }
     
-    const questionsIndex = i=0; i<questions.length; i++
-    currentQuestion = availibleQuestions[questionsIndex]
-    question.innerText = currentQuestion.question
+    const questionsIndex = i=0; i<questions.length; i++;
+    currentQuestion = availibleQuestions[questionsIndex];
+    question.innerText = currentQuestion.question;
     
 
     selector.forEach(select => {
-        let number = select.dataset['number']
-        select.innerText = currentQuestion['select' + number]
-    })
+        let number = select.dataset['number'];
+        select.innerText = currentQuestion['select' + number];
+    });
 
-    availibleQuestions.splice(questionsIndex, 1)
+    availibleQuestions.splice(questionsIndex, 1);
     
-    acceptAnswer = true
+    acceptAnswer = true;
 }
 
 
 
     selector.forEach(select => {
     select.addEventListener('click', e => {
-            let userAnswer = e.target
-            let answer = userAnswer.dataset['number']  
-            let isCorrect = answer == currentQuestion.answer 
+            let userAnswer = e.target;
+            let answer = userAnswer.dataset['number']; 
+            let isCorrect = answer == currentQuestion.answer;
 
         if (isCorrect) {  
-        alert("Well done you have answered correctly")
-        incrementScore()
+        alert("Well done you have answered correctly");
+        incrementScore();
          } else { 
-        alert("You answered incorrectly")
+        alert("You answered incorrectly");
     }
     
-})
+});
 
 function incrementScore() {
-    let addScore = parseInt(document.getElementById("score").innerText)
-    document.getElementById("score").innerText = ++addScore
+    let addScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++addScore;
 
     
-    let currentScore = parseInt(localStorage.getItem('Score') ?? '0')
-    localStorage.setItem('Score', (currentScore + 1).toString())
+    let currentScore = parseInt(localStorage.getItem('Score') ?? '0');
+    localStorage.setItem('Score', (currentScore + 1).toString());
 }
-})
+});
 
-
-nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++).document.getElementById("answer-container")) 
+nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++)) ;
     
-
-    
-
-
-
-beginGame()
+beginGame();
