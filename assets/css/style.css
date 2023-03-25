@@ -28,7 +28,7 @@ body.game {
 }
 
 body.completed {
-    background-image: url(../images/witcher.jpg);
+    background-image: url(../images/wallpaperflare.com_wallpaper\(1\).jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,7 +140,7 @@ h1, h2 {
 
 }
 
-#answer-container {
+#answerContainer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -152,7 +152,7 @@ h1, h2 {
     animation-fill-mode: forwards
 }
 
-.answer-button {
+.answerButton {
     display: flex;
     align-items: center;
     justify-content: center;

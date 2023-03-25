@@ -107,7 +107,7 @@ getNewQuestion = () => {
             window.location.href = "completed.html"
     }
     
-    let questionsIndex = Math.floor(Math.random() * availibleQuestions.length)
+    const questionsIndex = i=0; i<questions.length; i++
     currentQuestion = availibleQuestions[questionsIndex]
     question.innerText = currentQuestion.question
     
@@ -158,9 +158,3 @@ nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuest
 
 
 beginGame()
-
-
-
-
-
-
