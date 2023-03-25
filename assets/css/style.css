@@ -107,6 +107,7 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 50%;
     margin-bottom: 20px;
     background-color: rgba(211, 214, 219, 20%);
@@ -192,8 +193,14 @@ h1, h2 {
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    text-align: center;
 }
 
+
+#finalScore {
+    font-size: 30px;
+    text-align: center;
+}
 
 /* Key Frames */
 

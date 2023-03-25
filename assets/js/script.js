@@ -151,3 +151,4 @@ function incrementScore() {
 nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++)) ;
     
 beginGame();
+
