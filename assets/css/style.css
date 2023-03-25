@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fauna+One&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: 'Fauna One', serif;
     color: #faf5f5;
@@ -14,7 +20,7 @@ body.home {
 }
 
 body.game {
-    background-image: url(../images/wallpapersden.com_the-witcher-3_1920x1080.jpg);
+    background-image: url(../images/wallpapersden.com_the-witcher-tv-series_1920x1080.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,9 +45,30 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
-    /* margin-bottom: 400px; */
 }
+
+.title-content {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 60px 0px 60px 0;
+    animation: 1.7s ease-out 0s 1 slideInFromTop;
+}
+
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-300%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+
 
 /* Buttons */
 
@@ -79,10 +106,22 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-    
+    height: 740px;
+    animation: fadeInAnimation ease 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
 }
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 
 .home-text {
     display: flex;
@@ -92,13 +131,12 @@ h1, h2 {
     margin-bottom: 20px;
     background-color: rgba(211, 214, 219, 20%);
     border-radius: 17px;
-    
 }
 
 
 /* Game */
 
-.score {
+#score {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,7 +176,7 @@ h1, h2 {
 
 
 
-/* Game over and Leaderboard*/
+/* Game over */
 
 .end-container {
     display: flex;
