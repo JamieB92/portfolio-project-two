@@ -150,7 +150,11 @@ function incrementScore() {
 })
 
 
-nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++))
+nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++).document.getElementById("answer-container")) 
+    
+
+    
+
 
 
 beginGame()
