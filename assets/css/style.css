@@ -83,9 +83,20 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: #faf5f5;
+  }
+
+  
+
 .btn:hover {
     background-color: #d3d6db;
     color: #0e2431;
+}
+
+a:hover {
+    color: #0e2431
 }
 
 /* Index */
