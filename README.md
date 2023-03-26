@@ -92,7 +92,9 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
  
 ### Unfixed bugs 
 
-
+* Shows null instead of 0 in previous score and final score.
+    * The fix to this would be upon load create the local storage data.
+    * This would create the inputs needed to show a Value of 0 .
 
 ### Validator Testing 
 
