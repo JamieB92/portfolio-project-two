@@ -160,7 +160,7 @@ function incrementScore() {
 
 
 /** Next button function that itterates through each question */
-nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++)) ;
+nextButton.addEventListener("click", () => this.getNewQuestion(this.questionIndex++)) ;
     
 beginGame();
 

@@ -94,7 +94,7 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 
 * Shows null instead of 0 in previous score and final score.
     * The fix to this would be upon load create the local storage data.
-    * This would create the inputs needed to show a Value of 0 .
+    * I believe this would create the inputs needed to show a Value of 0.
 
 ### Fixed Bugs
 
@@ -110,6 +110,10 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
  * No errors were returned when passing through the official W3C validator.
 * CSS 
  * No errors were found when passing through the offficial (Jigsaw) validator.
+* JavaScript
+    * No errors were found when passing through jshint validator.
+    * I found a few warnings stating about let in the testing " 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)."
+    * I found a warning stating that "i is undefined" & "You might be leaking a variable (i) here" though if you remove it the qestions will not work.
 
  ### Lighthouse Testing 
 
