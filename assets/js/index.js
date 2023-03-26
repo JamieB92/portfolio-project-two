@@ -7,4 +7,6 @@ document.getElementById('previousScore').textContent = `Your previous score was 
 
 startButton.addEventListener('click', function() {
     localStorage.removeItem('Score');
+    location.href = "the-witcher-quiz.html"
 })
+
