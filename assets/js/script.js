@@ -154,7 +154,7 @@ function getNewQuestion() {
 function incrementScore() {
     
     document.getElementById("score").innerText = ++addScore;
-    // Stack Overflow
+    // Stack Overflow - Sohail
     let currentScore = parseInt(localStorage.getItem('Score') ?? '0');
     localStorage.setItem('Score', (currentScore + 1).toString());
 }
