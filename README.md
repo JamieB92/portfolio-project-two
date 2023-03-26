@@ -106,7 +106,7 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 
 * During validation test got a error saying: 
 <br>
-<img src="./images/Screenshot 2023-03-26 085210">
+<img src="./docs/Screenshot 2023-03-26 085210">
     * Resolved this by changing select buttons to a div.
     * Resolved this by creating a javascript on click function for start, home & restart that directs the user to the correct page
 
