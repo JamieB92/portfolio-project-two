@@ -2,7 +2,7 @@ let question = document.getElementById('question');
 let selector = Array.from(document.getElementsByClassName('selectText'));
 let nextButton = document.querySelector("#next");
 let score = document.getElementById("score");
-
+let addScore = parseInt(document.getElementById("score").innerText);
 
 let currentQuestion = {};
 let availibleQuestions = [];
@@ -97,6 +97,7 @@ let questions = [
 function beginGame() {
     availibleQuestions = [...questions];
     getNewQuestion();
+    
 }
 
 
@@ -139,9 +140,8 @@ function getNewQuestion() {
 });
 
 function incrementScore() {
-    let addScore = parseInt(document.getElementById("score").innerText);
+    
     document.getElementById("score").innerText = ++addScore;
-
     
     let currentScore = parseInt(localStorage.getItem('Score') ?? '0');
     localStorage.setItem('Score', (currentScore + 1).toString());

@@ -6,5 +6,5 @@ document.getElementById('finalScore').textContent = `Your Score was ${getScore}/
 
 
 restartButton.addEventListener('click', function() {
-    localStorage.clear();
+    localStorage.clear('Score');
 })

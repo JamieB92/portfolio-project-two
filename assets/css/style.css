@@ -198,12 +198,18 @@ h1, h2 {
     justify-content: center;
     margin-bottom: 10px;
     text-align: center;
+    gap: 1rem;
+    animation: fadeInAnimation ease 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
 }
 
 
 #finalScore {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Key Frames */
