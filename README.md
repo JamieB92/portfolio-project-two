@@ -1,11 +1,11 @@
 # The Ultimate Witcher Fan Quiz
 
-<img src="./images/screens.png">
-<br>
+<img src="./docs/screens.png">
+
 
 * The Ultimate Witcher Fan Quiz is quiz to test users on their knowledge of The Witcher universe. The quiz offers the user to put their knowledge against 10 questions based on the netflix series, the games and also the books.
 Within the game it keeps track of the users score so they can test their knowledge against friends. The site has been designed mobile first but is playable and responsive on desktop also.<br>
-View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">here.</a>>
+View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">here.</a>
 
 
 # Home Page 
@@ -126,16 +126,16 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 * I have confirmed that on each page, the colours and fonts of the site were chosen to be easy to read and accessible by running it through lighthouse in devtools.
  * index.html:
  <br>
-    <img src="./images/Screenshot 2023-03-26 104602.png">
+    <img src="./docs/Screenshot 2023-03-26 104602.png">
 
  * the-withcer-quiz.html:
  <br>
-  <img src="./images/quiz.png">
+  <img src="./docs/quiz.png">
 
 
 * completed.html:
 <br>
- <img src="./images/completed.png">
+ <img src="./docs/completed.png">
 
 
 
