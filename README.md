@@ -120,18 +120,17 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 * I have confirmed that on each page, the colours and fonts of the site were chosen to be easy to read and accessible by running it through lighthouse in devtools.
  * index.html:
  <br>
+    <img src="./images/Screenshot 2023-03-26 104602.png">
 
-
- * mountains.html:
+ * the-withcer-quiz.html:
  <br>
-  
+  <img src="./images/quiz.png">
 
-* explore.html:
-<br>
- 
 
-*  newsletter.html :
+* completed.html:
 <br>
+ <img src="./images/completed.png">
+
 
 
 # Deployment 

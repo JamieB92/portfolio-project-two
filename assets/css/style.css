@@ -242,3 +242,13 @@ a:hover {
       transform: translateY(0);
     }
   }
+
+  /* Media Quary */ 
+
+  @media screen and (max-width:470px) {
+
+  .answerButton {
+    width: 30%;
+  }
+
+}
