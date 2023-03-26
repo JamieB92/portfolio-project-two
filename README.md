@@ -6,7 +6,7 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 
 
 # Home Page 
-* When the vistor first arrives to on the page they will see bacground image of Geralt and loads in the title from the the top and slowly fades in the information.
+* When the vistor first arrives to on the page they will see background image of Geralt and loads in the title from the the top and slowly fades in the information.
 * Within the page contents it gives the user information about the site and explains what the quiz is about. <br>
 * The page also shows the users previous go at the quiz if they have already done the  quiz before. <br>
 * Whilst on the page it allows the user to start the game from this page. <br>
@@ -62,21 +62,36 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
   * Safari
 
 ### Functions  
-* 
 
 * I have confirmed that the website is responsive with different screen sizes. 
   * I tested this by using different mobile devices and using the devtools within the browser to re-create different screen sizes.
 
-* I have confirmed that the start button works and takes the user to the  page.
-  * I have tested this by adding all the correct inputs into the form and clicked subscribe which took me to the the thankyou.html page.
+* I have confirmed that the previous score works but shows null instead of 0 if you havent played the quiz or score 0. 
+   * I have tested this by completing the quiz, clicking the home button in completed.html which directs me and shows the previous score.
 
-* I have confirmed that the reset button works with the form.
-   * I have tested this by adding inputs to the form and then clicking reset. The inputs are reset as expected.
+* I have confirmed that the start button works and takes the user to the-witcher-page.html.
+  * I have tested this by clicking on the start button which takes me to the desired page and also clears the local storage data.
+
+* I have confirmed that the next button works in the-witcher-page.html page.
+   * I have tested this by clicking on the button which changed the question until it gets to the end of the questions that takes you to the completed.html page.
+
+ * I have confirmed that the current score function works in the-witcher-page.html page.
+    * I have tested this by getting an answer correct which changes the number to the current score.  
+
+* I have confirmed that the home button works in the completed.html page.
+    * I have tested this by clicking on the home button which takes me to the desired page.
+
+* I have confirmed that the final score works but shows null instead of 0 if you score 0. 
+   * I have tested this by completing the quiz and being directed the completed.html where its shows the final score.    
+
+* I have confirmed that the restart button works in the completed.html page.
+    * I have tested this by clicking on the restart button which takes me to the desired page and also clears the local storage data.
+     
 
 
-### Solved Bugs
- * 
+ 
 ### Unfixed bugs 
+
 
 
 ### Validator Testing 
