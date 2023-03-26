@@ -1,68 +1,44 @@
 # The Ultimate Witcher Fan Quiz
 
-
+* The Ultimate Witcher Fan Quiz is quiz to test users on their knowledge of The Witcher universe. The quiz offers the user to put their knowledge against 10 questions based on the netflix series, the games and also the books.
+Within the game it keeps track of the users score so they can test their knowledge against friends. The site has been designed mobile first but is playable and responsive on desktop also.<br>
+View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">here.</a>>
 
 
 # Home Page 
-### Hero Image & Logo
- * When the vistor first arrives on the page they will first see the Explore The Mournes logo and the hero image of the Mourne mountains.
- * The hero Image is fixed in place, this will animate the home page.
- * This will allow the user to know what the website is about and draw the user to explore the site.<br>
-<br>
- <img src="./docs/hero-logo.png">
+* When the vistor first arrives to on the page they will see bacground image of Geralt and loads in the title from the the top and slowly fades in the information.
+* Within the page contents it gives the user information about the site and explains what the quiz is about. <br>
+* The page also shows the users previous go at the quiz if they have already done the  quiz before. <br>
+* Whilst on the page it allows the user to start the game from this page. <br>
 
- ### Explore & Visit The Mournes
-* This gives the user information about why they should visit and explore the Mournes.
-* This allows the user to be informed and engaged with the site and the Mourne area. <br>
-<br>
-<img src="./docs/explore-visit.png">
 
-# Mountains Page
- * This gives the user information on the Mourne Mountains.<br>
- * As the user scorlls down the page they will find unique information about the 7 highest peaks in the Mournes.<br>
- * Within each section this will give the user information on where to park/start the hike and how long it will take.<br>
- * Each image is accessible for the visually impared giving each image a descriptive alt attribute.<br>
+ ### The Witcher Quiz Page
+* This page starts the quiz.
+* Within the page you have a questions with four potential answers.<br>
+* The page tracks the users correct answers.<br>
+* The page has a next button which allows the user to go to the next question.<br>
+<br>
+
+# Completed Page
+ * This gives the user information on about how well they have done in the quiz.<br>
+ * Within the page it congratulates the user for completing the quiz.<br>
+ * It informs the user of their score.<br>
+ * Within the page it alows the user to restart the quiz or go back to the home page.<br>
  <br>
- <img src="./docs/about-mournes.png">
+ 
 
-# Explore Page
-* This page offers an alternative to the user than hiking.<br>
-* Each section within this page gives the user other information about unique places and activities within the Mourne Mountain region.<br>
-* The Mourne Wall section gives the user information on the Mourne wall and its history.<br>
-* Silent Valley section offers the user information on the area and what facilities it has to offer to the user.<br>
-* Within the Mountain Bike section of this page it tells you where the popular places are, what type of trails are there and the facilities they offer.<br>
-<br>
-<img src="./docs/mourne-wall.png">
 
-# E-Newsletter Page
-* This page allows the user to sign up to the monthly E-Newsletter.
-* Subscribing offers the user an opportunity to win in a monthly photography competition and also informs the user of active groups and events.
-* The subscription form allows the user to subscribe and upload photos at the same time.
-* The subscription form consists of the following inputs:
-  * First Name
-  * Last Name
-  * Date of Birth
-  * Email Address
-  * Reasons for Subscribing
-  * Upload For Competition
-  * Subscribe Button
-  * Reset Button
-* Once subscribed the user will be directed to thankyou.html giving the user a thank you message for subscribing.
-* The user will be able to navigate out of the page through the navigation menu.<br>
-<br>
-<img src="./docs/newsletter.png"><br>
 
 # Technologies Used 
 
 * <a href="https://en.wikipedia.org/wiki/HTML5" target=" _blank">HTML 5</a>
 * <a href="https://en.wikipedia.org/wiki/CSS" target=" _blank">CSS 3</a>
+* <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScipt</a>
 * <a href="https://www.gitpod.io/" target=" _blank">Gitpod</a>
 * <a href="https://github.com/" target=" _blank">GitHub</a>
 * <a href="https://git-scm.com/" target=" _blank">Git</a>
-
 * <a href="https://fonts.google.com/about" target=" _blank">Google Fonts</a>
-* <a href="https://convertio.co/jpg-webp/" target=" _blank">Convertio</a>
-* <a href="https://tinypng.com/" target=" _blank">Tinypng</a>
+
 
 
 # Testing 
@@ -91,16 +67,7 @@
 * I have confirmed that the website is responsive with different screen sizes. 
   * I tested this by using different mobile devices and using the devtools within the browser to re-create different screen sizes.
 
-
-
-
-
-
-
-
-
-
-* I have confirmed that the subscribe button works and takes the user to the thankyou.html page.
+* I have confirmed that the start button works and takes the user to the  page.
   * I have tested this by adding all the correct inputs into the form and clicked subscribe which took me to the the thankyou.html page.
 
 * I have confirmed that the reset button works with the form.
@@ -108,7 +75,7 @@
 
 
 ### Solved Bugs
- *
+ * 
 ### Unfixed bugs 
 
 
