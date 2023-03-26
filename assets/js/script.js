@@ -7,6 +7,8 @@ let addScore = parseInt(document.getElementById("score").innerText);
 let currentQuestion = {};
 let availibleQuestions = [];
 let acceptAnswer = true;
+
+/** Questions and answers for quiz */
 let questions = [
     {
         question: 'What animal is on Geralts medallion?',
@@ -92,7 +94,7 @@ let questions = [
     }
 ];
 
-
+/** Function that starts the quiz  */
 
 function beginGame() {
     availibleQuestions = [...questions];
@@ -100,8 +102,12 @@ function beginGame() {
     
 }
 
-
+/** function that gets questions and answers and itterates through each question.
+ * when user gets to end of question it directs user to completed.html
+ */
 function getNewQuestion() {
+
+    /** gets new question and itterates through */
 
     if(availibleQuestions.length === 0) {
             window.location.href = "completed.html";
@@ -123,7 +129,9 @@ function getNewQuestion() {
 }
 
 
-
+/** gets answers for new questions.
+ * Checks users answer against the correct answers and tells the user if correct
+ */
     selector.forEach(select => {
     select.addEventListener('click', e => {
             let userAnswer = e.target;
@@ -139,6 +147,8 @@ function getNewQuestion() {
     
 });
 
+
+/** Function that It also keeps a score of the users current score and stores in local storage */
 function incrementScore() {
     
     document.getElementById("score").innerText = ++addScore;
@@ -148,6 +158,8 @@ function incrementScore() {
 }
 });
 
+
+/** Next button function that itterates through each question */
 nextButton.addEventListener("click", () => this.getNewQuestion(this.currentQuestionIndex++)) ;
     
 beginGame();
