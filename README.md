@@ -72,6 +72,9 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 * I have confirmed that the start button works and takes the user to the-witcher-page.html.
   * I have tested this by clicking on the start button which takes me to the desired page and also clears the local storage data.
 
+* I have confirmed the alert when user gets question correct or in correct.
+    I have test this by getting a question correct or incorrect in witch the aler does show.
+
 * I have confirmed that the next button works in the-witcher-page.html page.
    * I have tested this by clicking on the button which changed the question until it gets to the end of the questions that takes you to the completed.html page.
 
@@ -143,34 +146,36 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
  * Page will refresh once site is published. 
  * It will now show the live active site.
  
- The live link to Explore the Mournes can be found at: 
+ The live link to The Ultiamte Witcher Quiz can be found at: https://jamieb92.github.io/portfolio-project-two/
  
 
  # Credits
 
  ## Content:
-* Love Running project
+* Love Math Project
 * https://www.w3schools.com
 * https://color.adobe.com/
 * https://fonts.google.com
 * https://rgbacolorpicker.com/
+* https://developer.mozilla.org/en-US/
 
+## Brian Designs youtube channel : 
+* I used the initial structure of getting the question and itterating through each question which I changed in how it itterates through the questions.
+* I used the structure of itterating through each answer but modfied the outcome to my own design.
+
+## Stack OverFlow - Sohail :
+* I used this bit of code to be able to incremnet the score inside of the local storage
 
 All images that have been used are credited to their owners and the links to the images can found below. 
 
-### Index.html:
+### index.html:
+* https://wallpapersden.com/
 
+### the-witcher-quiz.html:
 
-
-
-### mountains.html:
-#### Content
-
-
-
-#### Images
+* https://wallpapersden.com/
 
 ### explore.html:
-#### Content
+* https://wallpaperflare.com/
 
-#### Images
+

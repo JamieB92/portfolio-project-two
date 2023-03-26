@@ -117,7 +117,7 @@ function getNewQuestion() {
     currentQuestion = availibleQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
     
-
+ // Credit - Brian Designs
     selector.forEach(select => {
         let number = select.dataset['number'];
         select.innerText = currentQuestion['select' + number];
@@ -132,6 +132,8 @@ function getNewQuestion() {
 /** gets answers for new questions.
  * Checks users answer against the correct answers and tells the user if correct
  */
+
+// Credit - Brian Designs
     selector.forEach(select => {
     select.addEventListener('click', e => {
             let userAnswer = e.target;
@@ -152,7 +154,7 @@ function getNewQuestion() {
 function incrementScore() {
     
     document.getElementById("score").innerText = ++addScore;
-    
+    // Stack Overflow
     let currentScore = parseInt(localStorage.getItem('Score') ?? '0');
     localStorage.setItem('Score', (currentScore + 1).toString());
 }
