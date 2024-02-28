@@ -1,11 +1,12 @@
 # The Ultimate Witcher Fan Quiz
 
-<img src="./docs/screens.png">
+![screens](https://github.com/JamieB92/portfolio-project-two/assets/117354147/66a25f51-c97b-49ce-8cd3-c6505fe2b078)
 
 
-* The Ultimate Witcher Fan Quiz is quiz to test users on their knowledge of The Witcher universe. The quiz offers the user to put their knowledge against 10 questions based on the netflix series, the games and also the books.
+The Ultimate Witcher Fan Quiz is my PP2 project built for my Diploma in Full Stack Software Development with the Code Institute. 
+The quiz is set to test the users on their knowledge of The Witcher universe. The quiz offers the user to put their knowledge against 10 questions based on the netflix series, the games and also the books.
 Within the game it keeps track of the users score so they can test their knowledge against friends. The site has been designed mobile first but is playable and responsive on desktop also.<br>
-View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">here.</a>
+View the live site <a href="https://jamiebonner.github.io/TheWitcherQuiz/">here.</a>
 
 
 # Home Page 
@@ -105,8 +106,7 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 ### Fixed Bugs
 
 * During validation test got a error saying: 
-<br>
-<img src="./docs/Screenshot 2023-03-26 085210">
+![error](https://github.com/JamieB92/portfolio-project-two/assets/117354147/9a7c529f-1bf8-42a4-9c77-cc3a81f0ca4b)
     * Resolved this by changing select buttons to a div.
     * Resolved this by creating a javascript on click function for start, home & restart that directs the user to the correct page
 
@@ -125,23 +125,20 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
 
 * I have confirmed that on each page, the colours and fonts of the site were chosen to be easy to read and accessible by running it through lighthouse in devtools.
  * index.html:
- <br>
-    <img src="./docs/Screenshot 2023-03-26 104602.png">
 
- * the-withcer-quiz.html:
- <br>
-  <img src="./docs/quiz.png">
+![index](https://github.com/JamieB92/portfolio-project-two/assets/117354147/24ce031c-e4df-49b3-b702-cae7e5aecca6)
 
+ * the-witcher-quiz.html:
+
+![quiz](https://github.com/JamieB92/portfolio-project-two/assets/117354147/7bb61b15-08de-403c-8386-0a834ba48e78)
 
 * completed.html:
-<br>
- <img src="./docs/completed.png">
 
-
+![completed](https://github.com/JamieB92/portfolio-project-two/assets/117354147/2ee6593e-4b4b-4e99-b001-7229a2bc2a64)
 
 # Deployment 
 
-* Explore The Mournes was deployed using GitHub pages:
+* The Witcher Quiz was deployed using GitHub pages:
  * Within the repository, go to settings.
  * Scroll down to Pages.
  * Select the Main branch.
@@ -149,7 +146,7 @@ View the live site <a href="https://jamieb92.github.io/portfolio-project-two/">h
  * Page will refresh once site is published. 
  * It will now show the live active site.
  
- The live link to The Ultiamte Witcher Quiz can be found at: https://jamieb92.github.io/portfolio-project-two/
+ The live link to The Ultiamte Witcher Quiz can be found at: https://jamiebonner.github.io/TheWitcherQuiz/
  
 
  # Credits
